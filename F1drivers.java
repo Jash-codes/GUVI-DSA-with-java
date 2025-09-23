@@ -25,5 +25,5 @@ public class F1drivers {
 
         max.displayinfo();
         lewis.displayinfo();
-    }
+    } 
 }

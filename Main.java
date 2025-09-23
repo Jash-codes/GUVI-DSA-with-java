@@ -9,6 +9,14 @@ class Dog {
     
 }
 
+class cat {
+    String catname;  //attribute
+
+    void meow(){  //function
+        System.out.println(catname + "meow");
+    }
+}
+
 public class Main{
     public static void main(String[] args) {
         Dog myDog = new Dog(); //object declaration
@@ -22,6 +30,13 @@ public class Main{
         anotherDog.name = "Ceaser";
 
         anotherDog.bark();
+
+
+        cat mycat = new cat();
+
+        // mycat.catname= "milly ";
+        mycat.meow();
+
         
     }
     

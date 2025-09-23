@@ -26,9 +26,11 @@ public static void main(String[] args) {
 
     F1teamrecord max = new F1teamrecord("Max verstappen","red bull racing", 4);
     F1teamrecord lewis = new F1teamrecord("lewis Hamilton", "Scuderia Ferrarri", 8);
+    F1teamrecord carlos = new F1teamrecord("Carlos", "williams", 0);
 
     max.displayinfo();
     lewis.displayinfo();
+    carlos.displayinfo();
 }
 }
 
