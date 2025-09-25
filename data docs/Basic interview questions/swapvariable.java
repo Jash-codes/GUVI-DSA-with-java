@@ -17,6 +17,6 @@ public class swapvariable {
         System.out.println("\nAFTER SWAPPING " + "\na = " + a + " \nb = " + b);
 
     
-            }
+        }
     
 }
